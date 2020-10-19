@@ -103,9 +103,10 @@ html {
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
+  padding: 1em;
   font-size: 1.25em;
   height: 100%;
+  background-color: #022e10;
 }
 
 .wrapper {
@@ -115,17 +116,29 @@ body {
 }
 
 .div-1, .div-2, .div-3 {
-  width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1.25em;
+  text-align: center;
   height: 300px;
+  font-family: roboto slab;
+  font-weight: lighter;
 }
 
+.div-2{
+  border-right: 3px dotted white;
+  border-left: 3px dotted white;
+  width:35%
+}
+.div-2 p{
+  width:80%;
+}
+.div-1, .div-3{
+  width: 30%;
+}
 
 
 
